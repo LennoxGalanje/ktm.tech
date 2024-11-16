@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ddc3ccf995.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul> 
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+             
+                </nav>
+                <script>
+                    var sidemenu = document.getElementById("sidemenu");
+                    function openmenu() {
+                        sidemenu.style.right = "0";
+                    }
+                    function closemenu() {
+                        sidemenu.style.right = "-200px";
+                    }
+                </script>
+
+
+            <div class="header-text">
+                <h1>Hey I'm <span class="name">Kupa</span> <br> <span class="typewriter"></span></h1>
+            </div>
+            <p class="paragraph">With extensive experience managing projects from inception to completion <br>
+                I am enthusiastic about applying my technical acumen and leadership<br> capabilities to foster meaningful impact
+                within a
+                dynamic team environment.</p>
+            
+            <div class="content">
+                <a href="https://www.linkedin.com/in/kupakwashe-mapuranga-18b6a2276/?originalSubdomain=in">Hire Me</a>
+            </div>
+            
+            </div>
+
+  
+   <!------about------->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="kupa">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am an AI and Machine Learning specialist with a passion for harnessing data to drive intelligent solutions.
+                Driven by a commitment to personal development, I am dedicated to advancing my knowledge in artificial intelligence
+                and machine learning. With a strong aptitude for tackling complex challenges, l've consistently delivered impactful
+                l projects for a variety of clients, including IT consultancies. My experience spans diverse industries, where I
+                have successfully developed and deployed AI-driven solutions that optimize processes, improve decision-making,
+                and enhance user experiences. I am committed to staying at the forefront of the field, leveraging technology to create
+                meaningful impactin innovative and practical ways</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Data Analysis</span><br>Data Management & Analysis with Sequel , SQL, and Excel</li>
+                        <li><span>Python Programming</span><br>Crafting Machine Learning Models with Python and TensorFlow</li>
+                        <li><span>Web Development</span><br>Building Web Applications with HTML, CSS, and JavaScript</li>
+                       
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Feb 2023 - Current</span><br>Assistant Operations Manager at Digiworx, Botswana</li>
+                        <li><span>Dec 2023 - Sep 2024</span><br>AI Program Consultant at BA Isago University</li>
+                        <li><span>Jan 2021 - Current</span><br>Eduacation Consultant at Global Arcus</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                <li><span>2020 - 2024</span><br>B.Tech Computer Science and Engineering specialized Al and
+                ML with Sandip University</li>
+                <li><span>2024</span><br>Data Science Certification with Mitu Skillologies</li>
+                <li><span>Current</span><br>Business Management Certification with Ba Isago University</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+ 
+<!------Projects------->
+
+
+<div id="Projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-shield"></i>
+                <h2>Wildlife Guardian Alert System</h2>
+                <p>WGAS is a machine learning-based system that uses thermal cameras to detect
+                animals on roads and provide real-time alerts to drivers. This system enhances
+                road safety in Botswana by reducing collisions with wildlife and livestock, thereby
+                protecting lives and supporting the local economy</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-gantt"></i>
+                <h2>Grapes Grading System Model</h2>
+                <p>This is a model built to classify grapes into export, local, and drying quality using decision trees, achieving 98%
+                accuracy. This project aims to streamline the grading process in the agricultural industry, enhancing quality control
+                and efficiency.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-notes-medical"></i>
+                <h2>Autism Prediction Model</h2>
+                <p>This model was created using Random Forest and ensemble learning to assist in the early diagnosis of autism, achieving
+                an impressive 99% accuracy. The project provides healthcare professionals with a reliable AI-driven tool for identifying
+                autism in children, thereby supporting improved early intervention and outcomes.</p>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<!------------Portfolio---------------->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work3.png">
+                <div class="layer">
+                    <h3>WGAS </h3>
+                    <p>Machine Model that uses thermal cameras to detect
+                    animals on roads and provide real-time alerts to drivers</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/Cover.png">
+                <div class="layer">
+                <h3>Power BI</h3>
+                <p>Hands-on experience with Power BI, creating interactive dashboards and detailed reports to help stakeholders make
+                data-driven decisions</p>
+                <a href="images/WhatsApp Video 2024-11-16 at 11.38.41_60b915d2.mp4"><i
+                        class="fa-solid fa-up-right-from-square"></i></a>
+               
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/Cover Page.png">
+                <div class="layer">
+                <h3>Emotional Journal App</h3>
+                <p> Model uses decision trees to classify grapes into export, local, and drying quality</p>
+
+         </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<!----------Contact---------->
+<div id="contact">
+    <div class="contact-us">
+        <h2>Connect with <span>Kupa</span></h2>
+        <p>I am eager to leverage my technical expertise
+            and leadership skills to drive impactful change within a dynamic team</p>
+    </div>
+    <div class="contain">
+        <div class="contactinfo">
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-map"></i></div>
+                <div class="text">
+                    <h3>Address</h3>
+                    <p>4583 Extension <br> 14 Gaborone, Botswana</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="text">
+                    <h3>Phone</h3>
+                    <p>267-763-62317</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="text">
+                    <h3>Email</h3>
+                    <p>kupakwashemapuranga@gmail.com</p>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/ApostleKTM"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://in.linkedin.com/in/kupakwashe-mapuranga-18b6a2276"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            <a href="images/CV_2024100412023164.pdf" download="" class="btn btn2">Download CV</a>
+        </div>
+        
+        <div class="contactForm">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <h2>Send Message</h2>
+                <input type="hidden" name="access_key" value="96d56288-171c-4b57-b3cd-2eba09417d94">
+                <div class="inputBox">
+                    <input type="text" name=" Name" required="required">
+                    <span>Name</span>
+                </div>
+                <div class="inputBox">
+                    <input type="email" name=" Email" required="required">
+                    <span>Email</span>
+                </div>
+                <div class="inputBox">
+                    <textarea required="required" name="Message"></textarea>
+                    <span>Type your Message...</span>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" name="" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+<!----Copyright------->
+    <div class="copyright">
+        <p>&copy; 2024 Lennox Galanje. All rights reserved.</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+   
+</script>
+
+<script>
+    const texts = ["Am an Al Specialist", "Am a ML Specialist"];
+    let index = 0;
+    const typewriterElement = document.querySelector('.typewriter');
+
+    function type() {
+        const currentText = texts[index];
+        let charIndex = 0;
+
+        function typeChar() {
+            if (charIndex < currentText.length) {
+                typewriterElement.textContent += currentText.charAt(charIndex);
+                charIndex++;
+                setTimeout(typeChar, 100);
+            } else {
+                setTimeout(deleteText, 1000);
+            }
+        }
+
+        typeChar();
+    }
+
+    function deleteText() {
+        const currentText = texts[index];
+        let charIndex = currentText.length;
+
+        function deleteChar() {
+            if (charIndex > 0) {
+                typewriterElement.textContent = currentText.substring(0, charIndex - 1);
+                charIndex--;
+                setTimeout(deleteChar, 50);
+            } else {
+                index = (index + 1) % texts.length;
+                setTimeout(type, 500);
+            }
+        }
+
+        deleteChar();
+    }
+
+    type();
+</script>
+</body>
+</html>
